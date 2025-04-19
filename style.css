@@ -3,16 +3,24 @@ root {
 	--bg: white;
 }
 body {
+	--font: black;
+	--bg: white;
 	font-family: Monoid;
-	padding: 100px;
-	font-size: 16px;
+	padding: 15vh 25vw;
+	font-size: 2vw;
 	font-weight: bold;
 	background-color: var(--bg);
 	color: var(--font);
 	margin: 0 auto;
 	text-align:left;
 }
-
+pre {
+	text-align: center;
+	align-items: center;
+}
+.right {
+	text-align: right;
+}
 @media (prefers-color-scheme: light) {
 	root {
 		--font: black;
