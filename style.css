@@ -6,7 +6,7 @@ body {
 	--font: black;
 	--bg: white;
 	font-family: Monoid;
-	font-size: 2vw;
+	font-size: 4vh;
 	font-weight: bold;
 	background-color: var(--bg);
 	color: var(--font);
