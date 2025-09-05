@@ -5,7 +5,7 @@ root {
 body {
 	--font: black;
 	--bg: white;
-	font-family: Monoid;
+	font-family: Monoid, monospace;
 	font-size: 4vh;
 	font-weight: bold;
 	background-color: var(--bg);
