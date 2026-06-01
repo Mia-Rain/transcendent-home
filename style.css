@@ -2,6 +2,16 @@ root {
 	--font: black;
 	--bg: white;
 }
+@media screen and (max-width: 768px) {
+	font-size: 3vh !important;
+	/* 
+		due to all the different phone widths 3vh is the best
+		some are good with as high as 3.6vh and that looks much nicer because of centering
+		however in testing 3vh is ideal bcause it fits down all the way for the iphone 12 mini
+		incase you're based and like tiny phones or something
+		but this site is meant for pcs cause fuck phones
+	*/
+}
 body {
 	--font: black;
 	--bg: white;
